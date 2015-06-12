@@ -14,6 +14,9 @@
 		442345111A6C3C51001F137F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442345101A6C3C51001F137F /* Images.xcassets */; };
 		442345141A6C3C51001F137F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442345121A6C3C51001F137F /* LaunchScreen.xib */; };
 		442345201A6C3C51001F137F /* HadoukenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423451F1A6C3C51001F137F /* HadoukenTests.m */; };
+		4423452A1A6C3C64001F137F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442345291A6C3C64001F137F /* AudioToolbox.framework */; };
+		4423452C1A6C3C88001F137F /* hadouken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4423452B1A6C3C88001F137F /* hadouken.mp3 */; };
+		44ED18071A6C4E5100DD9B47 /* tigeruppercut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44ED18061A6C4E5100DD9B47 /* tigeruppercut.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		442345191A6C3C51001F137F /* HadoukenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadoukenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4423451E1A6C3C51001F137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4423451F1A6C3C51001F137F /* HadoukenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HadoukenTests.m; sourceTree = "<group>"; };
+		442345291A6C3C64001F137F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4423452B1A6C3C88001F137F /* hadouken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hadouken.mp3; sourceTree = "<group>"; };
+		44ED18061A6C4E5100DD9B47 /* tigeruppercut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tigeruppercut.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4423452A1A6C3C64001F137F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,7 @@
 		442344F71A6C3C50001F137F = {
 			isa = PBXGroup;
 			children = (
+				442345291A6C3C64001F137F /* AudioToolbox.framework */,
 				442345021A6C3C51001F137F /* Hadouken */,
 				4423451C1A6C3C51001F137F /* HadoukenTests */,
 				442345011A6C3C51001F137F /* Products */,
@@ -96,6 +104,8 @@
 		442345031A6C3C51001F137F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44ED18061A6C4E5100DD9B47 /* tigeruppercut.mp3 */,
+				4423452B1A6C3C88001F137F /* hadouken.mp3 */,
 				442345041A6C3C51001F137F /* Info.plist */,
 				442345051A6C3C51001F137F /* main.m */,
 			);
@@ -200,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4423450F1A6C3C51001F137F /* Main.storyboard in Resources */,
+				44ED18071A6C4E5100DD9B47 /* tigeruppercut.mp3 in Resources */,
+				4423452C1A6C3C88001F137F /* hadouken.mp3 in Resources */,
 				442345141A6C3C51001F137F /* LaunchScreen.xib in Resources */,
 				442345111A6C3C51001F137F /* Images.xcassets in Resources */,
 			);
@@ -412,6 +424,7 @@
 				442345251A6C3C51001F137F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		442345261A6C3C51001F137F /* Build configuration list for PBXNativeTarget "HadoukenTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				442345281A6C3C51001F137F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

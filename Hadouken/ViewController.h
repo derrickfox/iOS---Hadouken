@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ViewController : UIViewController
+{
+    SystemSoundID PlaySoundID;
+    SystemSoundID PlaySoundID2;
 
+
+}
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+
+- (IBAction)hadoukenButton:(id)sender;
 
 @end
 
